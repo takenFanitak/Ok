@@ -1,4 +1,3 @@
-
 Hosted File:
 Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "@rdpbyav321" -Force)
 Get-LocalUser -Name "Administrator" | Enable-LocalUser 
